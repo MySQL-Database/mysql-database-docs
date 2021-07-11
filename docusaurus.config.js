@@ -6,7 +6,7 @@ module.exports = {
   title: 'MySQL Database',
   tagline: 'Easily modify your MySQL database data with easy functions',
   url: 'https://mysql-db.cloud',
-  baseUrl: '/',
+  baseUrl: '/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
