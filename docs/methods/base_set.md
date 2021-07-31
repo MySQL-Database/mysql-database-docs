@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
-# Set
+# Base Set
 
-Set Method
+Base Set Method
 
-### Table Of Set Method
+### Table Of Base Set Method
 
 - [Parameters](#parameters)
 - [Example Usage](#example-usage)
@@ -17,13 +17,13 @@ Set Method
 - key (the key name you want to store your value in it)
 - value (the value you want to store in the key name)
 ```js
-set(table, key, value)
+base_set(table, key, value)
 ```
 
 ### Example Usage
 ```js
-await db.set('my_table', 'foo', 'bar');
-// -> Stores 'bar' in 'foo' key name in the table 'my_table'
+await db.base_set('my_table', 'foo', 'bar');
+// -> Stores 'bar' in 'foo' key name in the table 'my_table' but base encrypted
 ```
 
 ### Returned Data

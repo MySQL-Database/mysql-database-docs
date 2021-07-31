@@ -1,12 +1,12 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
-# Get
+# Base Get
 
-Get Method
+Base Get Method
 
-### Table Of Get Method
+### Table Of Base Get Method
 
 - [Parameters](#parameters)
 - [Example Usage](#example-usage)
@@ -16,13 +16,13 @@ Get Method
 - table (table name to get the data from)
 - key (the key name you want to get your data from it)
 ```js
-get(table, key)
+base_get(table, key)
 ```
 
 ### Example Usage
 ```js
-await db.get('my_table', 'foo');
-// -> Gets foo key name value (which is bar) in the table 'my_table'
+await db.base_get('my_table', 'foo');
+// -> Gets foo key name value (which is bar) in the table 'my_table' for encrypted rows using base_set method
 ```
 
 ### Returned Data
