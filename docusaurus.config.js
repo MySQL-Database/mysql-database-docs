@@ -32,6 +32,11 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+		{
+          href: 'https://npmjs.com/mysql-database',
+          label: 'NPM',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -82,7 +87,6 @@ module.exports = {
               label: 'Author',
               to: 'https://itariq.dev',
             },
-            
           ],
         },
       ],
