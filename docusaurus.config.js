@@ -13,6 +13,9 @@ module.exports = {
   organizationName: '1TGDev', // Usually your GitHub org/user name.
   projectName: 'mysql-database', // Usually your repo name.
   themeConfig: {
+	colorMode: {
+	  defaultMode: 'dark',
+	},
     navbar: {
       title: 'MySQL Database',
       logo: {
@@ -93,8 +96,8 @@ module.exports = {
       copyright: `© Copyright © ${new Date().getFullYear()} All Rights Reserved, <a href="https://itariq.dev" target="_blank">TARIQ</a>`,
     },
     prism: {
-      darkTheme: darkCodeTheme,
       theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
     },
   },
   presets: [
