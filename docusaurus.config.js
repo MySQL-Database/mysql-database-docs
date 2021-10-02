@@ -40,6 +40,11 @@ module.exports = {
           label: 'NPM',
           position: 'right',
         },
+		{
+          href: 'https://discord.gg/qgVtMwDuqQ',
+          label: 'Discord',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -75,7 +80,7 @@ module.exports = {
             },
             {
               label: 'Discord',
-              href: 'https://itariq.dev/discord',
+              href: 'https://discord.gg/qgVtMwDuqQ',
             },
           ],
         },
