@@ -23,8 +23,11 @@ const database = new MySQL();
 - [connected](/docs/events/connected)
 
 ### Class Methods
+- [connect](/docs/methods/connect)
 - [set](/docs/methods/set)
 - [get](/docs/methods/get)
+- [base_set](/docs/methods/base_set)
+- [base_get](/docs/methods/base_get)
 - [push](/docs/methods/push)
 - [pull](/docs/methods/pull)
 - [includes](/docs/methods/includes)
@@ -39,5 +42,8 @@ const database = new MySQL();
 - [auto_increment](/docs/methods/auto_increment)
 - [create](/docs/methods/create)
 - [drop](/docs/methods/drop)
+- [clear](/docs/methods/clear)
 - [variables](/docs/methods/variables)
+- [ping](/docs/methods/ping)
 - [process](/docs/methods/process)
+- [end](/docs/methods/end)
