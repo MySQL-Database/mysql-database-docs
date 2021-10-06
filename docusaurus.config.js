@@ -31,6 +31,11 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
+          href: 'https://discord.gg/qgVtMwDuqQ',
+          label: 'Discord',
+          position: 'right',
+        },
+		{
           href: 'https://github.com/1TGDev/mysql-database',
           label: 'GitHub',
           position: 'right',
@@ -38,11 +43,6 @@ module.exports = {
 		{
           href: 'https://npmjs.com/mysql-database',
           label: 'NPM',
-          position: 'right',
-        },
-		{
-          href: 'https://discord.gg/qgVtMwDuqQ',
-          label: 'Discord',
           position: 'right',
         },
       ],
@@ -71,16 +71,16 @@ module.exports = {
           title: 'Links',
           items: [
             {
+              label: 'Discord',
+              href: 'https://discord.gg/qgVtMwDuqQ',
+            },
+			{
               label: 'GitHub',
               href: 'https://github.com/1TGDev/mysql-database',
             },
             {
               label: 'NPM',
               href: 'https://npmjs.com/mysql-database',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/qgVtMwDuqQ',
             },
           ],
         },
