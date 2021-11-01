@@ -18,7 +18,7 @@ Pull Method
 - value (the value you want to pull from the array stored in the key name)
 - all_option (all option to pull all values that equals to the provided value) <span class="optional">(OPTIONAL)</span>
 ```js
-pull(table, array, value, option)
+pull(table, array, value, all_option)
 ```
 
 ### Example Usage

@@ -27,5 +27,5 @@ await db.ping();
 ### Returned Data
 Returns database ping in milliseconds
 ```js
-27
+9
 ```

@@ -25,7 +25,7 @@ await db.end();
 ```
 
 ### Returned Data
-Returns nothing
+Returns true if the connection has been ended/closed successfully
 ```js
-undefined
+true
 ```
