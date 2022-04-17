@@ -6,7 +6,7 @@ sidebar_position: 5
 
 The library fully supported for json notation
 
-which means you can use <span class="optional">dots .</span> in values that is provided in methods
+which means you can use <span class="optional">dots .</span> in methods key parameter to access/manage specific object/array
 
 ### Examples
 ```js
