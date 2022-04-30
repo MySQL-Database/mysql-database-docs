@@ -16,14 +16,17 @@ Push Method
 - table (table name that you want to push to)
 - array (the key name of the array you want to push your value to it)
 - value (the value you want to push to the array stored in the key name)
+- push_if_not_include_option (pushes value to array only if array not includes value) <span class="optional">(OPTIONAL)</span>
 ```js
-push(table, array, value)
+push(table, array, value, push_if_not_include_option)
 ```
 
 ### Example Usage
 ```js
 await db.push('my_table', 'fruits', 'banana');
 // -> pushs 'banana' to 'fruits' array in 'my_table' table
+await db.push('my_table', 'fruits', 'banana', true);
+// -> doesn't push again because 'banana' is already included in array
 ```
 
 ### Returned Data
