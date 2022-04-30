@@ -16,9 +16,9 @@ Push Method
 - table (table name that you want to push to)
 - array (the key name of the array you want to push your value to it)
 - value (the value you want to push to the array stored in the key name)
-- push_if_not_include_option (pushes value to array only if array not includes value) <span class="optional">(OPTIONAL)</span>
+- push_if_not_include (pushes value to array only if array does not includes value) <span class="optional">(OPTIONAL)</span>
 ```js
-push(table, array, value, push_if_not_include_option)
+push(table, array, value, push_if_not_include)
 ```
 
 ### Example Usage
