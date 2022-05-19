@@ -13,6 +13,16 @@ module.exports = {
   organizationName: '1TGDev', // Usually your GitHub org/user name.
   projectName: 'mysql-database', // Usually your repo name.
   themeConfig: {
+	metadata: [
+		{
+			name: 'theme-color',
+			content: '#ff9326'
+		},
+		{
+			property: 'og:image',
+			content: 'https://mysql-db.cloud/img/meta.png'
+		}
+	],
 	colorMode: {
 	  defaultMode: 'dark',
 	},

@@ -7,7 +7,7 @@ export default function HomepageFeatures() {
 	<section className="">
 		<br /><br /><br />
 		<center>
-			<img src="https://cdn.discordapp.com/attachments/858540031160877077/863418307109453874/1200px-MySQL.png" className={styles.logo} />
+			<img src="/img/favicon.png" className={styles.logo} />
 			<br /><br />
 			<img src="https://nodei.co/npm/mysql-database.png" />
 			<br />
