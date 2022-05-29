@@ -27,7 +27,7 @@ await db.delete("my_table", "foo");
 
 ### Returned Data
 Returns true if deleted the whole row<br/>
-Returns the stored data if deleted specific data using [json notation](/docs/json-notation)
+Returns the stored data if deleted specific data using [JSON Notation](/docs/json-notation)
 ```js
 true
 ```

@@ -9,17 +9,17 @@ MySQL Class Connected Event
 ### Table Of MySQL Class Connected Event Contents
 
 - [Example Listener](#example-listener)
-- [Connection Response](#connection-response)
+- [Event Parameters](#event-parameters)
 
 ### Example Listener
 
 ```js
-db.on("connected", function (connection) {
-	console.log("Database Connected");
-})
+db.on('connected', async connection => {
+	console.log('Database Connected');
+});
 ```
 
-### Connection Response
+### Event Parameters
 ```js
 pool {
   pool: Pool {

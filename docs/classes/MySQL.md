@@ -21,6 +21,11 @@ const database = new MySQL();
 
 ### Class Events
 - [connected](/docs/events/connected)
+- [dataModification](/docs/events/dataModification)
+- [tableCreate](/docs/events/tableCreate)
+- [tableDelete](/docs/events/tableDelete)
+- [tableClear](/docs/events/tableClear)
+- [tableRename](/docs/events/tableRename)
 
 ### Class Methods
 - [connect](/docs/methods/connect)
@@ -47,3 +52,4 @@ const database = new MySQL();
 - [ping](/docs/methods/ping)
 - [process](/docs/methods/process)
 - [end](/docs/methods/end)
+- [exists](/docs/methods/exists)
