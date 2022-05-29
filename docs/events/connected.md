@@ -20,6 +20,7 @@ db.on('connected', async connection => {
 ```
 
 ### Event Parameters
+- connection (pool mysql connection)
 ```js
 pool {
   pool: Pool {
