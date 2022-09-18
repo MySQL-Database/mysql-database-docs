@@ -27,6 +27,10 @@ const database = new MySQL();
 - [tableClear](/docs/events/tableClear)
 - [tableRename](/docs/events/tableRename)
 
+:::info Note
+Events are only emitted if the action is taken from the library, which means if you manage the database from other connection, events would not work
+:::
+
 ### Class Methods
 - [connect](/docs/methods/connect)
 - [set](/docs/methods/set)

@@ -31,6 +31,7 @@ Returns true if the table has been created successfully
 true
 ```
 
-### Notes
+:::info Note
 This will <span class="optional">NOT</span> overwrite an existing table<br/>
 This will only create the table if its <span class="optional">NOT EXISTED</span>
+:::
