@@ -33,5 +33,5 @@ true
 
 :::info Note
 This will <span class="optional">NOT</span> overwrite an existing table<br/>
-This will only create the table if its <span class="optional">NOT EXISTED</span>
+This will only create the table if it's <span class="optional">NOT EXISTED</span>
 :::

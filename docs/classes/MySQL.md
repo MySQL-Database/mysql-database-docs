@@ -57,3 +57,4 @@ Events are only emitted if the action is taken from the library, which means if 
 - [process](/docs/methods/process)
 - [end](/docs/methods/end)
 - [exists](/docs/methods/exists)
+- [create_db](/docs/methods/create_db)
