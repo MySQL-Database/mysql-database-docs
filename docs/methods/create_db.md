@@ -20,7 +20,7 @@ create_db(database_name)
 
 ### Example Usage
 ```js
-await db.create_db('database_name', 'foo');
+await db.create_db('database_name');
 // -> Creates a separate database on the server
 ```
 
